@@ -1,3 +1,8 @@
 sku,name,quantity,supplier_id
 ABC-1001,Apples,10,SUP1
-XYZ-2002,Bananas,3,SUP2
+ABC-1002,Oranges,20,SUP3
+ABC-1003,Pineapple,3,SUP4
+ABC-1004,Grapes,7,SUP5
+ABC-1005,Melon,13,SUP6
+XYZ-2002,Bananas,53,SUP2
+XYZ-2003,Coco,5,SUP7
