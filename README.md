@@ -28,6 +28,12 @@ To get the application up and running, follow these steps.
     ```bash
     git clone https://github.com/temitayoesho-olumayowa/Group_15_simple-inventory-system.git
     ```
+  
+  move into the created folder
+
+  ```bash
+  cd Group_15_simple-inventory-system
+  ```
 
 
 2.  **Install Dependencies**:
@@ -94,3 +100,9 @@ A short demo video of the application in action can be found at this link:
 ├── pytest.ini
 └── README.md
 └── requirements.txt
+
+# Pitures
+![alt text](<Screenshot 2025-09-21 082840.png>)
+![alt text](<Screenshot 2025-09-21 082720.png>)
+![alt text](<Screenshot 2025-09-21 082743.png>)
+![alt text](<Screenshot 2025-09-21 082804.png>)
