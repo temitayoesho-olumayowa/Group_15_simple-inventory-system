@@ -26,8 +26,7 @@ To get the application up and running, follow these steps.
 1.  **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/Katsayal/simple-inventory-system
-    cd groupXX-projectname
+    git clone https://github.com/temitayoesho-olumayowa/Group_15_simple-inventory-system.git
     ```
 
 
@@ -37,6 +36,7 @@ To get the application up and running, follow these steps.
     ```bash
     pipenv install
     ```
+    Additionally list of all libraries used could also be found at requirements.txt file.
 
 3.  **Run the Application**:
     Once the dependencies are installed, you can launch the application with a single command:
@@ -45,11 +45,9 @@ To get the application up and running, follow these steps.
     pipenv run python -m src.main
     ```
 
-4.  **VS Code Users**: If you are using VS Code, you can also run the application directly from the editor using the `launch.json` file provided in the `.vscode` directory. This will handle the correct module path.
-
 ### How to Use the Application
 
-  * **View Products**: The main window displays a table with all products. Low-stock items are highlighted with a `⚠️`.
+  * **View Products**: The main window displays a table with all products. Low-stock items are highlighted with a `⚠️`. We have a dashboard that provides a wuick summary of number of all items and those in low stock.
   * **Add Product**: Click the "Add Product" button to open a dialog and add a new item to your inventory.
   * **Adjust Stock**: Click the "Adjust Stock" button to change the quantity of an existing product.
   * **View Low Stock**: Click the "View Low Stock" button to filter the table and see only the products that need to be reordered.
@@ -60,15 +58,21 @@ To get the application up and running, follow these steps.
 
 This project was a collaborative effort to demonstrate proficiency in Python development, dependency management, and GUI creation.
 
-  * **Group Member Name 1 (Your Name)**: [Your role, e.g., "Lead Developer", "GUI Designer"]
-  * **Group Member Name 2**: [Their role]
-  * **...and so on.**
-
-The project's commit history showcases a detailed record of each member's contributions, with meaningful commit messages that reflect the progress and features implemented throughout development.
+  * **Group Leader**: ESHO TEMITAYO OLUMAYOWA
+  * **Group Members**: Elaigwu isaac
+                      Rabo AbdulSamad Abdullahi 
+                      Abdullahi Umar Katsayal
+                      Idowu Ummulkhair Abike 
+                      Idoko John Adeoluwa 
+                      Nnoli Anthony 
+                      Adinoyi Godwin Ayo
+                      piustabitha80@gmail.com
+                      Abdullateef Zakariyau Idris
 
 ### Application Demonstration
 
 A short demo video of the application in action can be found at this link:
+            https://drive.google.com/file/d/1VfA1elTlUzWCORtA03R1E4Ljjrhu1GEL/view?usp=drivesdk
 
 
 ### Repository Structure
@@ -89,3 +93,4 @@ A short demo video of the application in action can be found at this link:
 ├── Pipfile.lock
 ├── pytest.ini
 └── README.md
+└── requirements.txt
