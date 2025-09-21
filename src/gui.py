@@ -141,9 +141,9 @@ class App(ctk.CTk):
 
             if product.quantity <= self.inventory.LOW_STOCK_THRESHOLD:
                 if product.quantity <= self.inventory.CRITICAL_STOCK_THRESHOLD:
-                    quantity_label = ctk.CTkLabel(self.table_scroll_frame, text=f"{product.quantity} 🚨", text_color="orange", fg_color=bg_color)
-                else:
                     quantity_label = ctk.CTkLabel(self.table_scroll_frame, text=f"{product.quantity} ⚠️", text_color="red", fg_color=bg_color)
+                else:
+                    quantity_label = ctk.CTkLabel(self.table_scroll_frame, text=f"{product.quantity} 🚨", text_color="orange", fg_color=bg_color)
             else:
                 quantity_label = ctk.CTkLabel(self.table_scroll_frame, text=str(product.quantity), fg_color=bg_color)
             

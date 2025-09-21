@@ -35,8 +35,8 @@ class Supplier:
         self.contact = contact
 
 class Inventory:
-    LOW_STOCK_THRESHOLD = 5
-    CRITICAL_STOCK_THRESHOLD = 2
+    LOW_STOCK_THRESHOLD = 9
+    CRITICAL_STOCK_THRESHOLD = 5
 
     def __init__(self):
         self.products = {}
